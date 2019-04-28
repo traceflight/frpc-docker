@@ -6,3 +6,4 @@ services:
     network_mode: "host"
     volumes:
       - ./config:/etc/frp
+      - ./log:/var/log
