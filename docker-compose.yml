@@ -1,0 +1,8 @@
+version: '3'
+services:
+  frps:
+    image: traceflight/frps-docker:0.27.0
+    restart: always
+    network_mode: "host"
+    volumes:
+      - ./config:/etc/frp
