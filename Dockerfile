@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine
 
 LABEL maintainer="wangjun <traceflight@outlook.com>"
 
