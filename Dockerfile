@@ -5,7 +5,7 @@ LABEL maintainer="wangjun <traceflight@outlook.com>"
 ARG TZ='Asia/Shanghai'
 
 ENV TZ ${TZ}
-ENV FRP_VERSION 0.27.0
+ENV FRP_VERSION 0.28.2
 ENV FRP_DOWNLOAD_URL https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/frp_${FRP_VERSION}_linux_amd64.tar.gz
 RUN apk upgrade --update \
     && apk add bash tzdata curl \
